@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>
+            Vins Christian College of Engineering
+        </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+        <style>
+            *{
+                margin:0;
+                padding:0;
+                box-sizing: border-box;
+            }
+            .a{
+                
+             background-color: red;
+             color:white;
+             padding-left: 10%;
+             padding-top:5px;
+             padding-bottom: 5px;
+            }
+            .e{
+                margin-right: 5%;
+            }
+            .b{
+               
+                padding-top: 15px;
+                padding-bottom: 15px;
+                margin-right: 30%;
+                width:400px;
+                margin-left:15%;
+                
+                
+            }
+            .f{
+                display:flex;
+            }
+            .x{
+                border:1px solid black;
+                background-color: crimson;
+                color:white;
+                font-size:20px;
+                line-height: 25px;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                border-radius: 5%;
+                padding: 20px;
+            }
+            .menu{
+                list-style-type: none;
+                display:flex;
+                border:1px solid black;
+                background-color: black;
+                padding-left: 10%;
+                color:white;
+                padding-top:10px;
+                padding-bottom:10px;
+
+                
+            }
+            .menu li{
+                
+                font-size:17px;
+                padding:15px;
+               }
+            .whit{
+                background-color: white;
+                color:black;
+                border:1px solid white;
+                border-radius: 30px;
+                padding: 50px;
+            
+            }
+            .r{
+                background-color:red;
+                margin-left: 2%;
+                margin-top: -11px;
+                margin-bottom: -11px;
+                padding-top: 25px;
+                
+               
+             }
+            .menu >li:hover{
+                background-color: white;
+                color:black;
+                border-radius: 30px;
+            }
+            .r:hover{
+                background-color:red;
+                margin-left: 2%;
+                margin-top: -11px;
+                margin-bottom: -11px;
+            }
+            .menu li ul{
+                display: none;
+                position: absolute;
+                margin-top:10px;
+                background-color: black;
+                color:white;
+                padding-top: 25px;
+
+            }
+            .menu li:hover ul{
+                display:block;
+            }
+            .l{
+                margin-left:45%;
+                padding-right:20px;
+            }
+            .k{
+                padding-right: 20px;
+            }
+            .o:hover{
+                display: block;
+               
+            }
+            
+            .engine{
+                list-style-type: none;
+                display:flex;
+                font-size: 20px;
+            }
+            .mechanical{
+                border:1px solid white;
+                display: inline-block;
+                margin-right:50px;
+                margin-left: 250px;
+                padding:30px;
+                background-color: purple;
+                color:white;
+            }
+            .computer{
+                border:1px solid white;
+                margin-right:50px;
+                padding:30px;
+                display: inline-block;
+                background-color:darkgoldenrod;
+                color:white;
+            }
+            .electronics{
+                border:1px solid white;
+                padding:30px;
+                display: inline-block;
+                background-color: blueviolet;
+                color:white;
+            }
+            .g{
+                border:5px solid white;
+            }
+           .h{
+            padding: 5px;
+            border: 1px solid black;
+            background-color: darkslateblue;
+            margin-top: 10px;
+           }
+           .j{
+            border-bottom: 2px solid white;
+            margin-right: -25px;
+            margin-left: -25px;
+            padding:10px;
+           }
+           .hi{
+            color:red;
+           }
+           .one{
+            position: relative;
+            margin-left: 200px;
+            padding: 45px;
+
+           }
+           .one::after{
+            content:'';
+            position:absolute;
+            left:0;
+            margin-left: 50px;
+            bottom:30px;
+            height:2px;
+            width:55px;
+            background-color:crimson;
+        
+
+           }
+           .other{
+            padding-top: 30px;
+            font-size: 20px;
+           }
+           .electrical{
+                border:1px solid white;
+                display: inline-block;
+                margin-right:50px;
+                margin-left: 250px;
+                padding:30px;
+                background-color:firebrick;
+                color:white;
+           }
+           .civil{
+                border:1px solid white;
+                margin-right:50px;
+                padding:30px;
+                display: inline-block;
+                background-color:midnightblue;
+                color:white;
+           }
+           .mba{
+                border:1px solid white;
+                padding:30px;
+                display: inline-block;
+                background-color:darkolivegreen;
+                color:white;
+           }
+           .two{
+            display: flex;
+            background-color:darkslategrey;
+            color:white;
+            font-size: 18px;
+            margin-top: 50px;
+           }
+           
+           .images{
+            margin-left: 10%;
+            padding:70px;
+           }
+           .msg{
+            text-align: left;
+            padding-top: 70px;
+            padding-right: 150px;
+            font-family: "Anta", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+           }
+           .gallery{
+            padding:50px;
+           }
+           .first{
+            display:flex;
+            margin-left: 10%;
+            padding: 2px;
+            padding-top: 50px;
+           }
+           .second{
+            display:flex;
+            margin-left: 10%;
+            padding: 2px;
+           }
+           .first img,.second img{
+            padding-right: 5px;
+           }
+           .contact{
+            background-color: crimson;
+            color:white;
+            display:flex;
+           }
+           .mail{
+            margin-left: 15%;
+            padding:20px;
+            font-size: 50px;
+            
+           }
+           .us{
+            padding-top: 30px;
+           }
+           .last{
+            margin-left: 20%;
+           padding:10px;
+            font-size: 20px;
+            border:1px solid black;
+            background-color: black;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            
+           }
+           .mlink{
+            color:white;
+            text-decoration: none;
+           }
+
+           form{
+            padding: 5%;
+            background-color: antiquewhite;
+            font-size: 25px;
+            
+
+           }
+           .you{
+            margin-left: 150px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 17px;
+           }
+           .me{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 17px;
+           }
+           
+
+            
+           
+            
+            
+
+        </style>
+    </head>
+    <body>
+       <p class="a">
+            For Admission: <strong class="e">+91 9787747072</strong>
+            Email:<strong> vinsengg@gmail.com </strong>
+            <i class="fa fa-facebook l" ></i>
+            <i class="fa fa-twitter k" ></i>
+            <i class="fa fa-instagram"></i>
+          
+        </p>
+    
+            <div class="f"><img src="https://vinsengineeringcollege.org/includes/images/logo.jpg" class="b">
+            <p class="x">Anna University Counselling Code: 4982</p>
+            </div>
+        <ul class="menu">
+            <li>ABOUT  <i class="fa fa-caret-down"></i>
+                <ul class="o">
+                    <li>VISION&MISSION</li>
+                    <li>COLLEGE PROFILE</li>
+                    <li>FOUNDER CHAIRMAN</li>
+                </ul>
+            </li>
+            <li><a class="mlink" href="menu.html">ADMISSIONS </a> <i class="fa fa-caret-down"></i></li>
+            <li>DEPARTMENT</li>
+            <li>PLACEMENT</li>
+            <li>FACILITIES</li>
+            <li>Campus</li>
+            <li>IQAC</li>
+            <li class="whit">Mandatory Disclosure</li>
+            <p class="r">ADMISSION OPEN</p>
+        </ul>
+
+        
+            <h1 class="one">OUR <span class="hi" >COURSES</span></h1>
+            <ol class="engine">
+
+                <li><div class="mechanical">
+                      
+                    <img src="https://vinsengineeringcollege.org/includes/images/mechanical.jpg" width="300px" height="200px" class="g"></i>
+                      <p class="j"></p>
+                
+                     <center><p>  Mechanical Engineering</p>
+                    <p class="h">VIEW DETAILS</p></center>
+
+                    </div>
+                       
+                    </li>
+                    <li>
+                        <div class="computer">
+                            <img src="https://vinsengineeringcollege.org/includes/images/computer.jpg" width="300px" height="200px" class="g"></i>
+                            <p class="j"></p>
+                           <center><p>Computer Science Engineering</p>
+                        <p class="h"> VIEW DETAILS</p></center>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="electronics">
+                            <img src="https://vinsengineeringcollege.org/includes/images/electronics.jpg" width="300px" height="200px" class="g"></i>
+                            <p class="j"></p>
+                           <center> <p>Electronics Engineering</p>
+                        <p class="h">VIEW DETAILS</p></center>
+                        </div>
+                    </li>
+            </ol>
+            <div class="other">
+                <div class="electrical">
+                    <img src="https://vinsengineeringcollege.org/includes/images/electrical.jpg" width="300px" height="200px" class="g">
+                    <p class="j"></p>
+                           <center><p>Electrical & Electronics Engineering </p>
+                        <p class="h"> VIEW DETAILS</p></center>
+                </div>
+                <div class="civil">
+                    <img src="https://vinsengineeringcollege.org/includes/images/civil.jpg" width="300px" height="200px" class="g">
+                   
+                     <p class="j"></p>
+                           <center><p>Civil Engineering </p>
+                        <p class="h"> VIEW DETAILS</p></center>
+                </div>
+                <div class="mba">
+                    <img src="https://vinsengineeringcollege.org/includes/images/mba.jpg?op=1" width="300px" height="200px" class="g">
+                   
+                     <p class="j"></p>
+                           <center><p>MBA </p>
+                        <p class="h"> VIEW DETAILS</p></center>
+                </div>
+            </div>
+        <div class="two">
+             <div class="images">
+                <img src="https://vinsengineeringcollege.org/includes/images/vinscollege.jpg" width="600px" height="400px">
+             </div>
+                <div class="msg">
+                    <h2>Join With Us</h2>
+                    <br>
+                    <h1>WATCH OUR CAMPUS TOUR</h1>
+                    <br>
+                    <p>
+                        Welcome to Vins Christian College of Engineering. With VINS, be prepared to put yourself on the anvil for budding professionals. VINS believes in the power of imagination and innovation. Those who dare to dream reach the star is VINS moving philosophy.
+                    </p>
+                    <br>
+                    <p>
+                        VINS Christian Engineering College has conducted more than 55 National Level Technical Symposium and Conferences with Scientist from ISRO, Vikram sarabai Space centre, Indian Institue of Space Science and Technology.
+                    </p>
+                
+                </div>
+        </div>
+
+        <div class="gallery">
+            <h1>OUR <span class="hi">GALLERY</span></h1>
+            <div class="first">
+                <img src="https://vinsengineeringcollege.org/images/homeslide/h1.jpg" width="300px" height="200px">
+                <img src="https://vinsengineeringcollege.org/images/homeslide/h2.jpg" width="300px" height="200px">
+                <img src="https://vinsengineeringcollege.org/images/homeslide/h4.jpg" width="300px" height="200px">
+                <img src="https://vinsengineeringcollege.org/images/homeslide/h6.jpg" width="300px" height="200px">
+            </div>
+            <div class="second">
+                <img src="https://vinsengineeringcollege.org/images/homeslide/h7.jpg" width="300px" height="200px">
+                <img src="https://vinsengineeringcollege.org/images/homeslide/h8.jpg" width="300px" height="200px">
+                <img src="https://vinsengineeringcollege.org/images/homeslide/h9.jpg" width="300px" height="200px">
+                <img src="https://vinsengineeringcollege.org/images/homeslide/h10.jpg" width="300px" height="200px">
+            </div>
+        </div>
+        <div class="contact">
+            <i class="fa  fa-envelope-o mail"></i>
+            <h2 class="us">CONTACT US</h2>
+            <input type="text" class="you" placeholder="Your Mobile No"> &emsp13;&emsp13;&emsp13;
+            <input type="text"  class="me" placeholder="Your Message">
+            <p class="last"><a class="mlink" href="https://vinsengineeringcollege.org/"> Contact</a></p>
+
+        </div>
+        <div>
+<form>
+    <input type="text" placeholder="enter your user name" ><br>
+    <input type="password" placeholder="password"><br>
+    <input type="number"><br>
+    <input type="radio" name="gender" ><label>Male</label>  &emsp13;&emsp13;<input type="radio" name="gender"><lable>Female</lable>
+    <br><label>select your DOB</label><input type="date">
+    <input type="color"><br>
+    <input type="range" min="0" max="100"><br>
+    <input type="file">
+
+</form>
+
+        </div>
+
+                
+
+                
+            
+
+
+
+        
+        
+            
+        
+        
+    </body>
+
+</html>
